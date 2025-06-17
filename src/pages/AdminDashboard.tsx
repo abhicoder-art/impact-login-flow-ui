@@ -2,7 +2,7 @@
 import React from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Users, TrendingUp, wrench } from 'lucide-react';
+import { Users, TrendingUp, Wrench } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
 const AdminDashboard = () => {
@@ -79,7 +79,7 @@ const AdminDashboard = () => {
             <CardHeader className="pb-4">
               <div className="flex items-center space-x-3">
                 <div className="p-2 bg-purple-100 rounded-lg">
-                  <wrench className="h-6 w-6 text-purple-600" />
+                  <Wrench className="h-6 w-6 text-purple-600" />
                 </div>
                 <div>
                   <CardTitle className="text-xl font-semibold text-gray-900">

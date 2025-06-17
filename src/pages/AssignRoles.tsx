@@ -2,7 +2,7 @@
 import React from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { ArrowLeft, wrench } from 'lucide-react';
+import { ArrowLeft, Wrench } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
 const AssignRoles = () => {
@@ -24,7 +24,7 @@ const AssignRoles = () => {
           
           <div className="flex items-center space-x-3 mb-4">
             <div className="p-3 bg-purple-100 rounded-xl">
-              <wrench className="h-8 w-8 text-purple-600" />
+              <Wrench className="h-8 w-8 text-purple-600" />
             </div>
             <div>
               <h1 className="text-3xl font-bold text-gray-900">
